@@ -1,0 +1,18 @@
+## Installation
+
+1. You need `Node.js` (at least 10.x version) installed on your machine, if you don't have it, you should install it - download [link](https://nodejs.org/en/download/)
+2. `cd` to Dashboard folder
+4. Install necessary dependencies:
+    - **Via node `npm` package manager** - Run `npm install` on the project root
+    - **Via `yarn` package manager** - Run `yarn install` on the project root
+    - **module들을 설치하는데 git이 필수이므로 git이 사전에 설치되어 있어야 한다.**
+
+## Configuration for MySQL database
+현재 MySQL Config가 프로젝트를 진행하면서 사용했던 AWS EC2로 설정되어 있는데, 계속 열려 있으므로 설정을 우선 그대로 두면 된다.
+
+
+## Run the application
+
+1. For starting the application, the following script (defined in `package.json` under `scripts`) must be called:
+    - via **npm**: `npm run start` or `npm run dev` for starting the development environment, which has livereload enabled;
+    - via **yarn**: `yarn start` or `yarn dev` for starting the development environment, which has livereload enabled;
